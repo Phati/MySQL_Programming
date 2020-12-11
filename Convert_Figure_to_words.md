@@ -1,5 +1,6 @@
-#**MYSQL** Program to convert number in figures to words 
+# **MYSQL** Program to convert number in figures to words 
 
+```sql
 create database tempdb;
 use tempdb;
 
@@ -260,7 +261,7 @@ delimiter ;
 
 call sp_fig_to_words(54673452,@res);
 select @res;
-
+```
 
 > **Note:** You can easily expand the program to deal with higher values just by 
 adding new stored procedures by making a few changes to the last stored procedure.
